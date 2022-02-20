@@ -1,0 +1,30 @@
+@import "../../node_modules/codemirror/addon/hint/show-hint.css";
+// body {
+//   box-sizing: border-box;
+// }
+// .pane {
+//   height: 50vh;
+//   display: flex;
+// }
+// .top-pane {
+//   background-color: hsl(225, 6%, 25%);
+// }
+// .normal {
+//   display: flex;
+//   flex-direction: column;
+// }
+// .side_layout {
+//   display: flex;
+//   .pane {
+//     flex-direction: column;
+//   }
+// }
+body {
+  box-sizing: border-box;
+}
+
+.side_layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
